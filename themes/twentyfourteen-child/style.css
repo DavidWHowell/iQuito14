@@ -6,3 +6,12 @@ Template: twentyfourteen
 */
 
 @import url("../twentyfourteen/style.css");
+
+.site-header {
+	background-color: black;
+}
+
+.page-content {
+	margin: 0 auto;
+	max-width: 674px;
+}
