@@ -7,6 +7,15 @@ Template: twentyfourteen
 
 @import url("../twentyfourteen/style.css");
 
+.site {
+	width: 80%;
+	margin: 0 auto;
+}
+
+.site-title {
+	display: none !important;
+}
+
 .site-description {
 	display: none !important;
 }
@@ -15,35 +24,89 @@ Template: twentyfourteen
 	background-color: #ccc;
 }
 
+.site-footer {
+	background-color: #888;
+}
+
 .site:before {
 	background-color: #ccc;
 }
 
 .search-toggle {
-	background-color: red;
+	background-color: #3ba4cc;
 }
 
 .search-toggle:hover {
-	background-color: red;
+	background-color: #3ba4cc;
 }
 
-.site-title {
-	color: #222;
+.search-toggle.active {
+	background-color: black;
 }
+
+.search-box {
+	background-color: black;
+}
+
+.site-navigation {
+	padding-right: 250px;
+	font-size: 0.8em;
+	background-color: #3ba4cc;
+}
+
+.header-main {
+	background-color: #3ba4cc;
+}
+
+/*
+.site-content {
+	padding-right: 300px;
+}
+*/
 
 .site-navigation li a:hover {
-	background-color: red;
+	background-color: #3ba4cc;
+	color: black;
 }
 
 .sub-menu li {
-	background-color: red;
+	background-color: #3ba4cc;
+	color: black;
 }
 
-.sub-menu li > ul {
-	background-color: red;
-}
-
-.current_page_item {
-	background-color: red;
+.sub-menu li a:hover {
+	background-color: #3ba4cc;
 	color: white;
+}
+
+
+::selection {
+	background: #3ba4cc;
+	color: black;
+	text-shadow: none;
+}
+
+::-moz-selection {
+	background: none repeat scroll 0 0 #3ba4cc;
+	color: black;
+	text-shadow: none;
+}
+
+.site-navigation .current_page_item > a, .site-navigation .current_page_ancestor > a, .site-navigation .current-menu-item > a, .site-navigation .current-menu-ancestor > a {
+	color: black;
+}
+
+
+
+@media screen and (min-width: 673px) {
+
+	.full-width .site-content {
+		margin:0px auto;
+	}
+	.full-width .site-content .has-post-thumbnail .entry-header {
+		margin:0px auto;
+	}
+	.singular.full-width .site-content .has-post-thumbnail.hentry {
+		margin:0px auto;
+	}
 }
