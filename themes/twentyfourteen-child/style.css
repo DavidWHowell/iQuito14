@@ -7,3 +7,43 @@ Template: twentyfourteen
 
 @import url("../twentyfourteen/style.css");
 
+.site-description {
+	display: none !important;
+}
+
+.site-header {
+	background-color: #ccc;
+}
+
+.site:before {
+	background-color: #ccc;
+}
+
+.search-toggle {
+	background-color: red;
+}
+
+.search-toggle:hover {
+	background-color: red;
+}
+
+.site-title {
+	color: #222;
+}
+
+.site-navigation li a:hover {
+	background-color: red;
+}
+
+.sub-menu li {
+	background-color: red;
+}
+
+.sub-menu li > ul {
+	background-color: red;
+}
+
+.current_page_item {
+	background-color: red;
+	color: white;
+}
