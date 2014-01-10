@@ -28,9 +28,24 @@
 	<script src="<?php echo get_template_directory_uri(); ?>/js/html5.js"></script>
 	<![endif]-->
 	<?php wp_head(); ?>
+	<link rel="stylesheet" href="wp-content/themes/twentyfourteen-child/flexslider/flexslider.css" type="text/css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
+	<script src="wp-content/themes/twentyfourteen-child/flexslider/jquery.flexslider.js"></script>
+
+	<script type="text/javascript" charset="utf-8">
+		$(window).load(function() {
+			$('.flexslider').flexslider({
+				slideshow: true,
+				slideshowSpeed: 7000,
+				animationSpeed: 600
+			});
+		});
+	</script>
 </head>
 
 <body <?php body_class(); ?>>
+
+
 <div id="page" class="hfeed site">
 	<?php if ( get_header_image() ) : ?>
 	<div id="site-header">
@@ -60,6 +75,8 @@
 				<?php get_search_form(); ?>
 			</div>
 		</div>  -->
+		
+		
 	</header><!-- #masthead -->
 
 	<div id="main" class="site-main">

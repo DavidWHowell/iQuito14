@@ -6,6 +6,10 @@ Template: twentyfourteen
 */
 
 @import url("../twentyfourteen/style.css");
+@font-face {
+	font-family: 'Bebas Neue';
+	src: url("wp-content/themes/twentyfourteen-child/BebasNeue.otf")
+}
 
 .site {
 	width: 80%;
@@ -15,6 +19,7 @@ Template: twentyfourteen
 .site-title {
 	display: none !important;
 }
+
 
 .site-description {
 	display: none !important;
@@ -49,9 +54,19 @@ Template: twentyfourteen
 }
 
 .site-navigation {
-	padding-right: 250px;
-	font-size: 0.8em;
+	padding-right: 300px;
+	font-size: 1.4em;
 	background-color: #3ba4cc;
+	font-family: 'Bebas Neue', sans-serif;
+
+}
+
+.entry-header {
+	display: none;
+}
+
+.comments-area {
+	display: none;
 }
 
 .header-main {
@@ -96,7 +111,41 @@ Template: twentyfourteen
 	color: black;
 }
 
+.primary-navigation li:hover > a, .primary-navigation li.focus > a {
+	background-color: #3ba4cc;
+}
 
+.primary-navigation ul ul a:hover, .primary-navigation ul ul li.focus > a {
+	background-color: #3ba4cc;
+	color: black;
+}
+
+.flexslider {
+	border: none;
+	width: 1024px;
+}
+
+/* MEDIA QUERIES */
+
+@media screen and (min-width: 846px) {
+	.content-area, .content-sidebar {
+		padding-top: 0;
+	}
+}
+
+@media screen and (min-width: 1040px) {
+	.full-width .archive-header, .full-width .comments-area, .full-width .image-navigation, .full-width .page-header, .full-width .page-content, .full-width .post-navigation, .full-width .site-content .entry-header, .full-width .site-content .entry-content, .full-width .site-content .entry-summary, .full-width .site-content footer.entry-meta {
+		padding-left: 0px;
+		padding-right: 0px;
+	}
+}
+
+@media screen and (min-width: 1218px) {
+	.archive-header, .comments-area, .image-navigation, .page-header, .page-content, .post-navigation, .site-content .entry-header, .site-content .entry-content, .site-content .entry-summary, .site-content footer.entry-meta {
+		margin-left: 0;
+		margin-right: 0;
+	}
+}
 
 @media screen and (min-width: 673px) {
 
