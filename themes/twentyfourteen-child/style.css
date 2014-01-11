@@ -12,7 +12,7 @@ Template: twentyfourteen
 }
 
 .site {
-	width: 80%;
+	width: 66%;
 	margin: 0 auto;
 }
 
@@ -36,6 +36,7 @@ Template: twentyfourteen
 .site:before {
 	background-color: #ccc;
 }
+
 
 .search-toggle {
 	background-color: #3ba4cc;
@@ -122,8 +123,8 @@ Template: twentyfourteen
 
 .flexslider {
 	border: none;
-	width: 1024px;
 }
+
 
 /* MEDIA QUERIES */
 
