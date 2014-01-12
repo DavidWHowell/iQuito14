@@ -59,7 +59,8 @@
 				<div id="inner-header" class="wrap clearfix">
 
 					<?php // to use a image just replace the bloginfo('name') with your img src and remove the surrounding <p> ?>
-					<ul class="headerImgs">
+					<!--
+<ul class="headerImgs">
 					<li class="headerImgsLi">
 					<a href="<?php echo home_url(); ?>" rel="nofollow"><img class="logoBanner" src="wp-content/themes/bones/images/banner2.jpg"></a>
 					</li>
@@ -67,6 +68,7 @@
 					<a href="#"><img class="donateImg" src="wp-content/themes/bones/images/donateBanner2.png"></a>
 					</li>
 					</ul>
+-->
 					</div>
 					
 					<?php // if you'd like to use the site description you can un-comment it below ?>

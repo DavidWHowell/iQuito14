@@ -837,7 +837,7 @@ a:hover,
 a:visited:hover,
 a:focus,
 a:visited:focus {
-  color: #d10e3c;
+  color: #8C001A;;
 }
 a:link,
 a:visited:link {
@@ -925,6 +925,8 @@ and more scalable.
 .nav {
   border: 1px solid #ccc;
   border-bottom: 0;
+
+
   /* end .menu li */
   /* highlight current page */
   /* end current highlighters */
@@ -942,7 +944,7 @@ and more scalable.
   display: block;
   text-decoration: none;
   padding: 10px 10px;
-  background-color: #3ba4cc;
+  background-color: rgba(140, 0, 26, 1);
   border-bottom: 1px solid #ccc;
   color: white;
   /*
@@ -1501,7 +1503,7 @@ HEADER STYLES
 NAVIGATION STYLES
 *********************/
   .nav {
-    background: #3ba4cc;
+    background: rgba(140, 0, 26, 1);
     border: 0;
     /* end .menu ul li */
     /* highlight current page */
@@ -1527,7 +1529,7 @@ NAVIGATION STYLES
   }
   .nav li a:hover,
   .nav li a:focus {
-    background-color: #dedede;
+    background-color: white;
   }
   .nav li ul.sub-menu,
   .nav li ul.children {
@@ -1807,9 +1809,11 @@ though, go for it.
 	margin-left: 60px;
 }
 
+/*
 .indent {
 	margin-left: 5px;
 }
+*/
 
 #bigSlider {
 	width: 100%;
@@ -1817,6 +1821,14 @@ though, go for it.
 	right: 0px;
 	top: 0px;
 	z-index: -1000;
+}
+
+body {
+	width: 100%;
+}
+
+#content {
+	margin-top: 350px;
 }
 
 /****************
@@ -1830,7 +1842,8 @@ though, go for it.
 }
 
 .siteMap {
-	font-size: 0.8em;
+
+	margin-left: 55px;
 }
 
 #siteMapFooter {
@@ -1840,20 +1853,22 @@ though, go for it.
 .siteMapTitle {
 	font-size: 2.0em;
 	font-family: 'BebasNeue';
+
 }
 
+
 #about a {text-decoration: none; color: white;}
-#about a:hover {text-decoration: underline; color: #3ba4cc;}
+#about a:hover {text-decoration: underline; color: #8C001A;}
 
 #people a {text-decoration: none; color: white;}
-#people a:hover {text-decoration: underline; color: #3ba4cc;}
+#people a:hover {text-decoration: underline; color: #8C001A;}
 
 #gallery a {text-decoration: none; color: white;}
-#gallery a:hover {text-decoration: underline; color: #3ba4cc;}
+#gallery a:hover {text-decoration: underline; color: #8C001A;}
 
 #support a {text-decoration: none; color: white;}
-#support a:hover {text-decoration: underline; color: #3ba4cc;}
+#support a:hover {text-decoration: underline; color: #8C001A;}
 
 #contactUs a {text-decoration: none; color: white;}
-#contactUs a:hover {text-decoration: underline; color: #3ba4cc;}
+#contactUs a:hover {text-decoration: underline; color: #8C001A;}
 

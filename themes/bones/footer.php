@@ -2,8 +2,9 @@
 				
 				<div class="siteFoot">
 				
+				<div class="siteMap">
 				<div class="eightcol first" id="siteMapFooter">
-					<h1 class="siteMapTitle">Site Map</h1>
+					<a href="<?php echo home_url(); ?>"><h1 class="siteMapTitle">Escuela Nuevos Horizontes del Sur</h1></a>
 					
 					
 					<ul id="about" class="twocol first">
@@ -32,7 +33,7 @@
 					<ul id="contactUs" class="twocol">
 					<a href="#"<li>CONTACT US</li></a>
 					</ul>
-
+				</div>
 
 				
 					
