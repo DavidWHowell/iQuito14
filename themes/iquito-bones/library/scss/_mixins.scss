@@ -79,6 +79,12 @@ TYPOGRAPHY
 $sans-serif:        "Helvetica Neue", Helvetica, Arial, sans-serif;
 $serif:             "Georgia", Cambria, Times New Roman, Times, serif;
 
+@font-face {
+	font-family: 'Bebas Neue';
+	src: url('library/fonts/BebasNeue.otf') format('opentype');
+	font-weight: normal;
+    font-style: normal;
+}
 
 /* 	To embed your own fonts, use this syntax
 	and place your fonts inside the
@@ -99,6 +105,7 @@ $serif:             "Georgia", Cambria, Times New Roman, Times, serif;
     	font-style: normal;
 	}
 */
+
 
 /*
 use the best ampersand

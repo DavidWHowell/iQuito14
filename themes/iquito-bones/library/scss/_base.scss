@@ -150,7 +150,11 @@ h5, .h5 {
 HEADER STYLES
 *********************/
 
-.header {}
+.header {
+	background-color: #ccc;
+
+}
+
 
 	#logo {}
 
@@ -169,6 +173,8 @@ and more scalable.
 .nav {
 	border: 1px solid #ccc;
 	border-bottom: 0;
+	font-family: 'Bebas Neue', sans-serif;
+	clear: both;
 
 	li {
 
@@ -759,6 +765,7 @@ FOOTER STYLES
 
 .footer {
 	clear: both;
+	background-color: #888;
 }
 
 	/*
