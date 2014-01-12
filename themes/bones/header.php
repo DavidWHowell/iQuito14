@@ -54,7 +54,8 @@
 		<div id="container">
 
 			<header class="header" role="banner">
-
+			
+			
 				<div id="inner-header" class="wrap clearfix">
 
 					<?php // to use a image just replace the bloginfo('name') with your img src and remove the surrounding <p> ?>

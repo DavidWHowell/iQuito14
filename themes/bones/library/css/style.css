@@ -1811,7 +1811,13 @@ though, go for it.
 	margin-left: 5px;
 }
 
-
+#bigSlider {
+	width: 100%;
+	position: absolute;
+	right: 0px;
+	top: 0px;
+	z-index: -1000;
+}
 
 /****************
 	FOOTER
