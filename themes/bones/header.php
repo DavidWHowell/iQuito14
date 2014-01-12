@@ -36,6 +36,16 @@
 
 		<?php // drop Google Analytics Here ?>
 		<?php // end analytics ?>
+		
+		<link rel="stylesheet" href="wp-content/themes/bones/flexslider/flexslider.css" type="text/css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
+		<script src="wp-content/themes/bones/flexslider/jquery.flexslider.js"></script>
+		
+		<script type="text/javascript" charset="utf-8">
+			$(window).load(function() {
+				$('.flexslider').flexslider();
+			});
+		</script>
 
 	</head>
 
@@ -48,8 +58,14 @@
 				<div id="inner-header" class="wrap clearfix">
 
 					<?php // to use a image just replace the bloginfo('name') with your img src and remove the surrounding <p> ?>
-					<p id="logo" class="h1"><a href="<?php echo home_url(); ?>" rel="nofollow"><?php bloginfo('name'); ?></a></p>
+					<div class="logoBannerHeader">
+					<a href="<?php echo home_url(); ?>" rel="nofollow"><img class="logoBanner" src="wp-content/themes/bones/images/banner2.jpg"></a>
+					</div>
 
+					<div class="donate">
+					<a href="#"><img class="donateImg" src="wp-content/themes/bones/images/donateBanner2.png"></a>
+					</div>
+					
 					<?php // if you'd like to use the site description you can un-comment it below ?>
 					<?php // bloginfo('description'); ?>
 

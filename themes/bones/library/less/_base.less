@@ -38,10 +38,13 @@ html, body {
 	/* height: 100%; */
 }
 body {
-	font-family: @serif;
-	font-size: 100%;
+	font-family: Georgia, serif;
+	font-size: 14px;
 	line-height: 1.5;
-	color: #565656;
+	color: black;
+	background: white;
+	width: 70%;
+	margin: 0 auto;
 }
 
 /********************
@@ -215,8 +218,9 @@ and more scalable.
 			display: block;
 			text-decoration: none;
 			padding: 10px 10px;
-			background-color: #eee;
+			background-color: #3ba4cc;
 			border-bottom: 1px solid #ccc;
+			color: white;
 
 			/*
 			remember this is for mobile ONLY, so there's no need
@@ -247,6 +251,7 @@ and more scalable.
 
 				a {
 					padding-left: 30px;
+					
 
 					&:hover,
 					&:focus {}
@@ -822,7 +827,7 @@ and more scalable.
 12. SIDEBARS & ASIDES
 *********************/
 
-.sidebar {}
+.sidebar { display: none !important;}
 
 	.widgettitle {}
 
