@@ -48,19 +48,25 @@
 <div id="page" class="hfeed site">
 
 
-	<?php if ( get_header_image() ) : ?>
+	<!-- <?php if ( get_header_image() ) : ?> -->
 	<div id="site-header">
-	
+	<!--
+
 		<a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home">
 			<img src="<?php header_image(); ?>" width="<?php echo get_custom_header()->width; ?>" height="<?php echo get_custom_header()->height; ?>" alt="">
 		</a>
 	</div>
 	<?php endif; ?>
+-->
 
 	<header id="masthead" class="site-header" role="banner">
 		<div class="header-main">
+		<a href="#"><img class="bannerLogo" src="wp-content/themes/twentyfourteen-child/images/banner2.jpg"></a>
+		<a href="#"><img class="donateBanner" src="wp-content/themes/twentyfourteen-child/images/donateBanner2.png"></a>
+
+		</div>
 		
-			<h1 class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></h1>
+			<!-- <h1 class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></h1> -->
 
 <!-- <div class="search-toggle">
 				<a href="#search-container" class="screen-reader-text"><?php _e( 'Search', 'twentyfourteen' ); ?></a>

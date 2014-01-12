@@ -29,6 +29,7 @@ Template: twentyfourteen
 	background-color: #ccc;
 }
 
+
 .site-footer {
 	background-color: #888;
 }
@@ -55,7 +56,7 @@ Template: twentyfourteen
 }
 
 .site-navigation {
-	padding-right: 300px;
+	padding-right: 200px;
 	font-size: 1.4em;
 	background-color: #3ba4cc;
 	font-family: 'Bebas Neue', sans-serif;
@@ -71,8 +72,15 @@ Template: twentyfourteen
 }
 
 .header-main {
-	background-color: #3ba4cc;
+	background-color: white;
+	padding-left: 0;
 }
+
+.donateBanner {
+	position: absolute;
+	padding-left: 100px;
+}
+
 
 /*
 .site-content {
@@ -134,11 +142,24 @@ Template: twentyfourteen
 	}
 }
 
+/*
+@media screen and (max-width: 1000px) {
+	
+	.site-navigation {
+	padding-right: 200px;
+	font-size: .8em;
+	background-color: #3ba4cc;
+	font-family: 'Bebas Neue', sans-serif;
+	}
+}
+*/
+
 @media screen and (min-width: 1040px) {
 	.full-width .archive-header, .full-width .comments-area, .full-width .image-navigation, .full-width .page-header, .full-width .page-content, .full-width .post-navigation, .full-width .site-content .entry-header, .full-width .site-content .entry-content, .full-width .site-content .entry-summary, .full-width .site-content footer.entry-meta {
 		padding-left: 0px;
 		padding-right: 0px;
 	}
+
 }
 
 @media screen and (min-width: 1218px) {
