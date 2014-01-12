@@ -13,6 +13,12 @@ of the styles inside media queries.
 /* ==========================================================================
    HTML5 display definitions
    ========================================================================== */
+@font-face {
+	font-family: 'BebasNeue';
+	src: url('wp-content/themes/bones/BebasNeue.otf');
+	
+}
+
 .article-header {
 	display: none;
 }
@@ -814,7 +820,7 @@ body {
 03. LAYOUT & GRID STYLES
 *********************/
 .wrap {
-  width: 96%;
+  width: 100%;
   margin: 0 auto;
 }
 /*********************
@@ -1425,7 +1431,7 @@ values are commented out on each line.
   }
   /* 56.75%; } /* grid_7  */
   .eightcol {
-    width: 100%;
+    width: 65.4%;
   }
   /* 65.4%;  } /* grid_8  */
   .ninecol {
@@ -1780,20 +1786,68 @@ though, go for it.
 			CUSTOM STUFF
 ****************************************/
 
-.logoBannerHeader {
-	width: 70%;
-}
-.logoBanner {
+.headerImgs {
 	width: 100%;
+	display: inline;
+	list-style-type: none;
 }
 
-.donate {
-	width: 8%;
-	position: fixed;
-	right: 250px;
-	top: 30px;
+.headerImgsLi {
+	display: inline;
 }
+
+.logoBanner {
+	width: 69.68%;
+}
+
 
 .donateImg {
-	width: 100%;
+	width: 8%;
+	position: absolute;
+	margin-left: 60px;
 }
+
+.indent {
+	margin-left: 5px;
+}
+
+
+
+/****************
+	FOOTER
+****************/
+
+.siteFoot {
+	background-color: #ccc;
+	height: 250px;
+	color: white;
+}
+
+.siteMap {
+	font-size: 0.8em;
+}
+
+#siteMapFooter {
+	margin-left: 10px;
+}
+
+.siteMapTitle {
+	font-size: 2.0em;
+	font-family: 'BebasNeue';
+}
+
+#about a {text-decoration: none; color: white;}
+#about a:hover {text-decoration: underline; color: #3ba4cc;}
+
+#people a {text-decoration: none; color: white;}
+#people a:hover {text-decoration: underline; color: #3ba4cc;}
+
+#gallery a {text-decoration: none; color: white;}
+#gallery a:hover {text-decoration: underline; color: #3ba4cc;}
+
+#support a {text-decoration: none; color: white;}
+#support a:hover {text-decoration: underline; color: #3ba4cc;}
+
+#contactUs a {text-decoration: none; color: white;}
+#contactUs a:hover {text-decoration: underline; color: #3ba4cc;}
+

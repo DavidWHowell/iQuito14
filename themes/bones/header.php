@@ -7,7 +7,7 @@
 
 	<head>
 		<meta charset="utf-8">
-
+		<title>Escuela Nuevos Horizontes del Sur</title>
 		<?php // Google Chrome Frame for IE ?>
 		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 
@@ -58,12 +58,14 @@
 				<div id="inner-header" class="wrap clearfix">
 
 					<?php // to use a image just replace the bloginfo('name') with your img src and remove the surrounding <p> ?>
-					<div class="logoBannerHeader">
+					<ul class="headerImgs">
+					<li class="headerImgsLi">
 					<a href="<?php echo home_url(); ?>" rel="nofollow"><img class="logoBanner" src="wp-content/themes/bones/images/banner2.jpg"></a>
-					</div>
-
-					<div class="donate">
+					</li>
+					<li class="headerImgsLi">
 					<a href="#"><img class="donateImg" src="wp-content/themes/bones/images/donateBanner2.png"></a>
+					</li>
+					</ul>
 					</div>
 					
 					<?php // if you'd like to use the site description you can un-comment it below ?>
