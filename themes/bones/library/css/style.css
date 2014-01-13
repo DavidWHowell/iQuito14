@@ -1884,6 +1884,8 @@ body {
 	height: 250px;
 	color: white;
 	border-top: 5px solid #8C001A;
+	padding-bottom: -100px;
+	overflow: hidden;
 }
 
 .siteMap {
@@ -1908,6 +1910,17 @@ a:-webkit-any-link {
 .siteMapCategories {
 	font-weight: 900;
 }
+
+.contactFooter {
+	position: relative;
+	top: -175px;
+
+}
+
+.socialMediaIcons {
+	padding-right: 20px;
+}
+
 
 #about a {text-decoration: none; color: white;}
 #about a:hover {text-decoration: underline; color: #8C001A;}

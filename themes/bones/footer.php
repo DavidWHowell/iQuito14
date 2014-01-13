@@ -33,11 +33,21 @@
 					<ul id="contactUs" class="twocol">
 					<a href="#"<li class="siteMapCategories">CONTACT US</li></a>
 					</ul>
+				</div>	
 				</div>
-
-				
-					
-					
+				<div class="contactFooter">
+				<div class="fourcol last">
+					<h1 class="siteMapTitle">Contact</h1>
+					<ul>
+					<li>Fernando Miño Garcés, Ph. D</li>
+					<li>Academic Director</li>
+					<li>El Día N37-111 y El Comercio</li>
+					<li>Quito, Ecuador</li>
+					<li>593-2-2240-179/593-2-2455-942</li>
+					<li>www.aclas.org</li>
+					<li><img class="socialMediaIcons" src="wp-content/themes/bones/images/facebook.png"><img class="socialMediaIcons" src="wp-content/themes/bones/images/twitter.png"><img class="socialMediaIcons" src="wp-content/themes/bones/images/youtube.png"></li>
+					</ul>
+				</div>
 				</div>
 				
 				
