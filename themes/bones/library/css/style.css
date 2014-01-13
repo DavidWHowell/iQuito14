@@ -1831,14 +1831,24 @@ body {
 	margin-top: 350px;
 }
 
+#homePageButtons {
+	margin-bottom: -20px;
+}
+
+#theSchoolImg {
+	width: 80%;
+	margin-top: 30px;
+}
+
 /****************
 	FOOTER
 ****************/
 
 .siteFoot {
-	background-color: #ccc;
+	background-color: #888;
 	height: 250px;
 	color: white;
+	border-top: 5px solid #8C001A;
 }
 
 .siteMap {
@@ -1853,9 +1863,12 @@ body {
 .siteMapTitle {
 	font-size: 2.0em;
 	font-family: 'BebasNeue';
-
+	color: white;
 }
 
+a:-webkit-any-link {
+	text-decoration: none;
+}
 
 #about a {text-decoration: none; color: white;}
 #about a:hover {text-decoration: underline; color: #8C001A;}
