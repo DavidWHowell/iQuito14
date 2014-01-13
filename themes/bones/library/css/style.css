@@ -1828,7 +1828,7 @@ body {
 }
 
 #content {
-	margin-top: 350px;
+	margin-top: -200px;
 }
 
 #homePageButtons {
@@ -1838,6 +1838,41 @@ body {
 #theSchoolImg {
 	width: 80%;
 	margin-top: 30px;
+}
+
+.escuelaNuevos {
+	color: white;
+	font-family: 'BebasNeue', sans-serif;
+	font-size: 3.0em;
+}
+
+#escuela {
+	position: relative;
+	top: -50px;
+	left: -20px;	
+}
+
+.logoTop li {
+	display: inline-block;
+}
+
+.logoTop {
+}
+
+#logo {
+	width: 70%;
+}
+
+.nav {
+	margin-bottom: 220px;
+	margin-top: -50px;
+/* 	opacity: .7; */
+	padding-left: 60px;
+	margin-top: 250px;
+}
+
+.nav li {
+
 }
 
 /****************
@@ -1868,6 +1903,10 @@ body {
 
 a:-webkit-any-link {
 	text-decoration: none;
+}
+
+.siteMapCategories {
+	font-weight: 900;
 }
 
 #about a {text-decoration: none; color: white;}

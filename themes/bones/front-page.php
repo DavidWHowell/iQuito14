@@ -12,13 +12,13 @@ Template Name: Front Page
 			<div class="flexslider">
 	<ul class="slides">
 		<li>
-			<img src="wp-content/themes/bones/images/slide1.jpg">
+			<img src="wp-content/themes/bones/images/slide4.jpg">
 		</li>
 		<li>
-			<img src="wp-content/themes/bones/images/slide2.jpg">
+			<img src="wp-content/themes/bones/images/slide6.jpg">
 		</li>
 		<li>
-			<img src="wp-content/themes/bones/images/slide3.jpg">
+			<img src="wp-content/themes/bones/images/slide5.jpg">
 		</li>
 	</ul>
 </div>

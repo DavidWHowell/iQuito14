@@ -43,7 +43,11 @@
 		
 		<script type="text/javascript" charset="utf-8">
 			$(window).load(function() {
-				$('.flexslider').flexslider();
+				$('.flexslider').flexslider({
+					prevText: "Previous",
+					nextText: "Next",
+					directionNav: true,
+				});
 			});
 		</script>
 
@@ -57,6 +61,12 @@
 			
 			
 				<div id="inner-header" class="wrap clearfix">
+				
+					<ul class="logoTop">
+						<li><a href="<?php echo home_url(); ?>"><img id="logo" src="wp-content/themes/bones/images/logo.png"></li></a>
+						<li id="escuela"><h1 class="escuelaNuevos">Escuela Nuevos Horizontes del Sur</h1></li>
+					</ul>
+
 
 					<?php // to use a image just replace the bloginfo('name') with your img src and remove the surrounding <p> ?>
 					<!--
@@ -79,6 +89,7 @@
 						<?php bones_main_nav(); ?>
 					</nav>
 
+					
 				</div>
 
 			</header>
