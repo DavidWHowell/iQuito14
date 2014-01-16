@@ -37,6 +37,13 @@
 		<?php // drop Google Analytics Here ?>
 		<?php // end analytics ?>
 		
+		<link rel="stylesheet" type="text/css" href="wp-content/themes/bones/shadowbox/shadowbox.css">
+		<script type="text/javascript" src="wp-content/themes/bones/shadowbox/shadowbox.js"></script>
+		<script type="text/javascript">
+		Shadowbox.init();
+		</script>
+		
+		
 		<link rel="stylesheet" href="wp-content/themes/bones/flexslider/flexslider.css" type="text/css">
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
 		<script src="wp-content/themes/bones/flexslider/jquery.flexslider.js"></script>

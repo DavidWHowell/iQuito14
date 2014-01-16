@@ -16,7 +16,11 @@ of the styles inside media queries.
 @font-face {
 	font-family: 'BebasNeue';
 	src: url('wp-content/themes/bones/BebasNeue.otf');
-	
+}
+
+@font-face {
+	font-family: 'ThirstyScriptRegular';
+	src: url('wp-content/themes/bones/ThirstyScriptRegular.otf');
 }
 
 .article-header {
@@ -1842,7 +1846,7 @@ body {
 
 .escuelaNuevos {
 	color: white;
-	font-family: 'BebasNeue', sans-serif;
+	font-family: 'ThirstyScriptRegular', sans-serif;
 	font-size: 3.0em;
 }
 
@@ -1875,6 +1879,18 @@ body {
 
 }
 
+
+/* Gradient transparent - color - transparent */
+		
+.hrGradient {
+	margin-top: -5px;
+    border: 0;
+    height: 1px;
+    background-image: -webkit-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0)); 
+    background-image:    -moz-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0)); 
+    background-image:     -ms-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0)); 
+    background-image:      -o-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0)); 
+}
 
 /****************
 	FOOTER
@@ -1938,3 +1954,16 @@ a:-webkit-any-link {
 #contactUs a {text-decoration: none; color: white;}
 #contactUs a:hover {text-decoration: underline; color: #8C001A;}
 
+
+/* SHADOWBOX STUFF */
+
+.art-gallery {
+	margin: 0 auto;
+
+}
+
+.art-gallery li{
+	list-style-type: none;
+	display: inline;
+
+}
