@@ -128,7 +128,7 @@ a:hover {
  */
 h1 {
   font-size: 2em;
-  margin: 0.67em 0;
+  margin: 0.5em 0;
 }
 h2 {
   font-size: 1.5em;
@@ -1825,6 +1825,10 @@ though, go for it.
 	right: 0px;
 	top: 0px;
 	z-index: -1000;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
 }
 
 body {
@@ -1886,10 +1890,10 @@ body {
 	margin-top: -5px;
     border: 0;
     height: 1px;
-    background-image: -webkit-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0)); 
-    background-image:    -moz-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0)); 
-    background-image:     -ms-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0)); 
-    background-image:      -o-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0)); 
+    background-image: -webkit-linear-gradient(left, rgba(0,0,0,1), rgba(0,0,0,0.5), rgba(0,0,0,0)); 
+    background-image:    -moz-linear-gradient(left, rgba(0,0,0,1), rgba(0,0,0,0.5), rgba(0,0,0,0)); 
+    background-image:     -ms-linear-gradient(left, rgba(0,0,0,1), rgba(0,0,0,0.5), rgba(0,0,0,0)); 
+    background-image:      -o-linear-gradient(left, rgba(0,0,0,1), rgba(0,0,0,0.5), rgba(0,0,0,0)); 
 }
 
 /****************

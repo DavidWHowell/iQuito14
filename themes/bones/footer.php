@@ -9,29 +9,29 @@
 					
 					<ul id="about" class="twocol first">
 					<li class="siteMapCategories">ABOUT</li>
-					<li class="indent"><a href="#">The School</a></li>
-					<li class="indent"><a href="#">History</a></li>
+					<li class="indent"><a href="?page_id=28">The School</a></li>
+					<li class="indent"><a href="?page_id=22">History</a></li>
 					</ul>
 					
 					<ul id="people" class="twocol">
 					<li class="siteMapCategories">PEOPLE</li>
-					<li class="indent"><a href="#">Faculty and Students</a></li>
-					<li class="indent"><a href="#">Alumni</a></li>
-					<li class="indent"><a href="#">ACLAS</a></li>
+					<li class="indent"><a href="?page_id=26">Faculty and Students</a></li>
+					<li class="indent"><a href="?page_id=11">Alumni</a></li>
+					<li class="indent"><a href="?page_id=24">ACLAS</a></li>
 					</ul>
 					
 					<ul id="gallery" class="twocol">
 					<li class="siteMapCategories">GALLERY</li>
-					<li class="indent"><a href="#">Photo</a></li>
-					<li class="indent"><a href="#">Video</a></li>
+					<li class="indent"><a href="?page_id=45">Photo</a></li>
+					<li class="indent"><a href="?page_id=47">Video</a></li>
 					</ul>
 
 					<ul id="support" class="twocol">
-					<a href="#"<li class="siteMapCategories">SUPPORT</li></a>
+					<a href="?page_id=9"><li class="siteMapCategories">SUPPORT</li></a>
 					</ul>
 					
 					<ul id="contactUs" class="twocol">
-					<a href="#"<li class="siteMapCategories">CONTACT US</li></a>
+					<a href="?page_id=50"><li class="siteMapCategories">CONTACT US</li></a>
 					</ul>
 				</div>	
 				</div>
