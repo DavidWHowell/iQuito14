@@ -13,15 +13,6 @@ of the styles inside media queries.
 /* ==========================================================================
    HTML5 display definitions
    ========================================================================== */
-@font-face {
-	font-family: 'BebasNeue';
-	src: url('wp-content/themes/bones/BebasNeue.otf');
-}
-
-@font-face {
-	font-family: 'ThirstyScriptRegular';
-	src: url('wp-content/themes/bones/ThirstyScriptRegular.otf');
-}
 
 .article-header {
 	display: none;
@@ -564,6 +555,38 @@ TYPOGRAPHY
 	}
 */
 /* 
+
+*/
+
+@font-face {
+    font-family: 'bree_serifregular';
+    src: url('../fonts/breeserif-regular-webfont.eot');
+    src: url('../fonts/breeserif-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/breeserif-regular-webfont.woff') format('woff'),
+         url('../fonts/breeserif-regular-webfont.ttf') format('truetype'),
+         url('../fonts/breeserif-regular-webfont.svg#bree_serifregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'camboregular';
+    src: url('../fonts/cambo-regular-webfont.eot');
+    src: url('../fonts/cambo-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/cambo-regular-webfont.woff') format('woff'),
+         url('../fonts/cambo-regular-webfont.ttf') format('truetype'),
+         url('../fonts/cambo-regular-webfont.svg#camboregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+
+
 use the best ampersand 
 http://simplebits.com/notebook/2008/08/14/ampersands-2/
 */
@@ -773,13 +796,15 @@ body {
   /* height: 100%; */
 }
 body {
-  font-family: Georgia, serif;
+  font-family: 'camboregular', serif;
   font-size: 14px;
   line-height: 1.5;
   color: black;
   background: white;
-  width: 70%;
+/*   width: 70%; */
   margin: 0 auto;
+  max-width: 1276px;
+
 }
 /********************
 02. WORDPRESS BODY CLASSES
@@ -832,7 +857,7 @@ body {
 *********************/
 a,
 a:visited {
-  color: #f01d4f;
+  color: #8C001A
   /* on hover */
   /* on click */
   /* mobile tap color */
@@ -865,7 +890,7 @@ h4,
 .h4,
 h5,
 .h5 {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: 'bree_serifregular', Helvetica, Arial, sans-serif;
   text-rendering: optimizelegibility;
   font-weight: 400;
   /*
@@ -1534,6 +1559,7 @@ NAVIGATION STYLES
   .nav li a:hover,
   .nav li a:focus {
     background-color: white;
+    color: #8C001A;
   }
   .nav li ul.sub-menu,
   .nav li ul.children {
@@ -1792,37 +1818,11 @@ though, go for it.
 			CUSTOM STUFF
 ****************************************/
 
-.headerImgs {
-	width: 100%;
-	display: inline;
-	list-style-type: none;
-}
-
-.headerImgsLi {
-	display: inline;
-}
-
-.logoBanner {
-	width: 69.68%;
-}
-
-
-.donateImg {
-	width: 8%;
-	position: absolute;
-	margin-left: 60px;
-}
-
-/*
-.indent {
-	margin-left: 5px;
-}
-*/
-
 #bigSlider {
 	width: 100%;
+	max-width: 1276px;
 	position: absolute;
-	right: 0px;
+	/* right: 0px; */
 	top: 0px;
 	z-index: -1000;
     height: 100%;
@@ -1837,6 +1837,7 @@ body {
 
 #content {
 	margin-top: -200px;
+
 }
 
 #homePageButtons {
@@ -1847,42 +1848,6 @@ body {
 	width: 80%;
 	margin-top: 30px;
 }
-
-.escuelaNuevos {
-	color: white;
-	font-family: 'ThirstyScriptRegular', sans-serif;
-	font-size: 3.0em;
-}
-
-#escuela {
-	position: relative;
-	top: -50px;
-	left: -20px;	
-}
-
-.logoTop li {
-	display: inline-block;
-}
-
-.logoTop {
-}
-
-#logo {
-	width: 70%;
-}
-
-.nav {
-	margin-bottom: 220px;
-	margin-top: -50px;
-/* 	opacity: .7; */
-	padding-left: 60px;
-	margin-top: 300px;
-}
-
-.nav li {
-
-}
-
 
 /* Gradient transparent - color - transparent */
 		
@@ -1895,6 +1860,77 @@ body {
     background-image:     -ms-linear-gradient(left, rgba(0,0,0,1), rgba(0,0,0,0.5), rgba(0,0,0,0)); 
     background-image:      -o-linear-gradient(left, rgba(0,0,0,1), rgba(0,0,0,0.5), rgba(0,0,0,0)); 
 }
+
+
+/*************************
+		HEADER
+*************************/
+
+#logoTitle li {
+	display: block;
+	line-height: .9em;
+}
+
+.escuelaNuevos {
+	color: white;
+	font-family: 'bree_serifregular';
+	font-size: 3.5em;
+}
+
+#escuela {
+	position: relative;
+	left: 20px;
+	bottom: 12px;	
+}
+
+.logoTop li {
+	display: inline-block;
+}
+
+
+#logo {
+	width: 90%;
+	margin: 0;
+	padding: 0;
+	margin-left: 20px;
+}
+
+.nav {
+	margin-bottom: 230px;
+	margin-top: -50px;
+/* 	opacity: .8; */
+	padding-left: 60px;
+	margin-top: 370px;
+}
+
+.nav li {
+
+}
+
+.titleBanner {
+	margin-top: 10px;
+/* 	background-color: rgba(140, 0, 26, 0.7); */   
+	width: 40%;
+	height: 50px;
+}
+
+#donateFlag {
+	position: absolute;
+	top: 0;
+	padding-left: 1030px;
+	
+}
+
+#homeVideo {
+	text-align: center;
+	padding: 10px;
+}
+
+/*********************
+	 HEADER END
+**********************/
+
+
 
 /****************
 	FOOTER
@@ -1920,7 +1956,7 @@ body {
 
 .siteMapTitle {
 	font-size: 2.0em;
-	font-family: 'BebasNeue';
+	font-family: 'bree_serifregular';
 	color: white;
 }
 
@@ -1930,11 +1966,13 @@ a:-webkit-any-link {
 
 .siteMapCategories {
 	font-weight: 900;
+	font-family: 'bree_serifregular';
 }
 
 .contactFooter {
 	position: relative;
 	top: -170px;
+	left: 100px;
 
 }
 
@@ -1959,7 +1997,20 @@ a:-webkit-any-link {
 #contactUs a:hover {text-decoration: underline; color: #8C001A;}
 
 
-/* SHADOWBOX STUFF */
+
+/****************
+   FOOTER END
+****************/
+
+	.flex-direction-nav .flex-prev {display: none;}
+	
+	.flex-direction-nav .flex-next {display: none;}
+
+
+
+/**********************
+	  SHADOWBOX
+**********************/
 
 .art-gallery {
 	margin: 0 auto;
@@ -1970,4 +2021,160 @@ a:-webkit-any-link {
 	list-style-type: none;
 	display: inline;
 
+}
+
+/**********************
+	  MEDIA QUERIES
+**********************/
+
+
+
+@media only screen and (max-width: 1150px) {
+
+	.nav {
+		margin-top: 300px;
+	}
+	
+	#inner-content {
+		padding-left: 30px;
+	}
+
+	#donateFlag {
+		padding-left: 800px;
+	}
+}
+
+@media only screen and (max-width: 946px) {
+	
+	.nav {
+		margin-top: 250px;
+	}
+	
+	.escuelaNuevos {
+		font-size: 2.5em;
+	}
+	
+	#donateFlag {
+		padding-left: 600px;
+	}
+}
+
+@media only screen and (max-width: 775px) {
+	
+	.nav {
+		padding-left: 0;
+		margin-top: 200px;
+	}
+	
+	#logo {
+		display: none;
+	}
+	
+	.siteFoot {
+		font-size: .8em;
+	}
+	
+	.contactFooter {
+		padding-left: 300px;
+		margin-top: -80px;
+		
+	}
+	
+	.flex-direction-nav .flex-prev {display: none;}
+	
+	.flex-direction-nav .flex-next {display: none;}
+	
+	
+	#donateFlag {
+		padding-left: 500px;
+	}
+}
+
+@media only screen and (max-width: 670px) { 
+	
+	.nav {
+		margin-top: 175px;
+	}
+	
+	#siteMapFooter {
+		display: none;
+	}	
+	
+	.contactFooter {
+		margin: 0;
+		padding: 0;
+		top: 5px;
+		left: 50px;
+	}
+	
+	.flex-direction-nav .flex-prev {display: none;}
+	
+	.flex-direction-nav .flex-next {display: none;}
+	
+
+	#donateFlag {
+		padding-left: 375px;
+	}
+}
+
+@media only screen and (max-width: 530px) {
+	#donateFlag {
+		padding-left: 300px;
+	}
+	
+}
+
+@media only screen and (max-width: 475px) {
+	
+	.nav {
+		margin-top: 100px;
+	}
+	
+	#homePageButtons {
+		display: none;
+	}
+	
+	#siteMapFooter {
+		display: none;
+	}
+	
+	.escuelaNuevos {
+		font-size: 1.75em;
+	}
+	
+	.contactFooter {
+		margin: 0 auto;
+		padding: 0;
+		top: 5px;
+		left: 50px;
+	}
+	
+	#donateFlag {
+		padding-left: 275px;
+	}
+	
+	#donateFlag img {
+		width: 100px;
+		height: 100px;
+	}
+	
+	.flex-direction-nav .flex-prev {display: none;}
+	
+	.flex-direction-nav .flex-next {display: none;}
+}
+
+@media only screen and (max-width: 400px) {
+	.nav {
+		margin-top: 60px;
+	}
+	
+	#donateFlag {
+		padding-left: 175px;
+		
+	}
+	
+	#donateFlag img {
+		width: 100px;
+		height: 100px;
+	}
 }

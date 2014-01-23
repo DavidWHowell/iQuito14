@@ -7,8 +7,9 @@
 
 	<head>
 		<meta charset="utf-8">
-		<title>Escuela Nuevos Horizontes del Sur</title>
+		<title>Nuevos Horizontes del Sur</title>
 		<?php // Google Chrome Frame for IE ?>
+		<meta name="description" content="Escuela y Colegio Nuevos Horizontes del Sur. A website for the new horizons of the south school in Quito, Ecuador.">
 		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 
 		<title><?php wp_title(''); ?></title>
@@ -67,12 +68,40 @@
 			<header class="header" role="banner">
 			
 			
+			
+			<div class="titleBanner">
+					<ul class="logoTop">
+						<li><a href="<?php echo home_url(); ?>"><img id="logo" src="wp-content/themes/bones/images/logo2.png"></li></a>
+						<li id="escuela"><h1 class="escuelaNuevos">
+						<ul id="logoTitle">
+						<li>NUEVOS</li>
+						<li>HORIZONTES</li>
+						<li>DEL SUR</li>
+						</ul>
+						</h1>
+						</li>
+					
+													
+					</ul>
+					
+					
+					
+					
+					
+					<!-- <a href="#"><img id="donateBanner" src="wp-content/themes/bones/images/donateBanner3.png"></a> -->
+					
+					</div>
+					
+				<div id="donateFlag">
+				<a href="#"><img src="wp-content/themes/bones/images/donateBanner4.png"></a>
+				</div>	
+					
+			
 				<div id="inner-header" class="wrap clearfix">
 				
-					<ul class="logoTop">
-						<li><a href="<?php echo home_url(); ?>"><img id="logo" src="wp-content/themes/bones/images/logo.png"></li></a>
-						<li id="escuela"><h1 class="escuelaNuevos">Escuela Nuevos Horizontes del Sur</h1></li>
-					</ul>
+				
+				
+				
 
 
 					<?php // to use a image just replace the bloginfo('name') with your img src and remove the surrounding <p> ?>
@@ -86,14 +115,16 @@
 					</li>
 					</ul>
 -->
-					</div>
+				</div>
 					
 					<?php // if you'd like to use the site description you can un-comment it below ?>
 					<?php // bloginfo('description'); ?>
 
 
+					
+
 					<nav role="navigation">
-						<?php bones_main_nav(); ?>
+						<?php bones_main_nav(); ?>	
 					</nav>
 
 					
