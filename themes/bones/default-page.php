@@ -11,24 +11,48 @@ Template Name: Default Page Template
 	<div id="bigSlider">
 			<div class="flexslider">
 	<ul class="slides">
-		<!--
-<li>
-			<img src="wp-content/themes/bones/images/slider1.jpg">
-		</li>
--->
+		
+<!--
 		<li>
 			<img src="wp-content/themes/bones/images/slider2.jpg">
-			
-		</li>
-		<li>
-			<img src="wp-content/themes/bones/images/slider3.jpg">
 		</li>
 		<li>
 			<img src="wp-content/themes/bones/images/slider4.jpg">
 		</li>
 		<li>
-			<img src="wp-content/themes/bones/images/slider5.jpg">
+			<img src="wp-content/themes/bones/images/slider6.jpg">
 		</li>
+		<li>
+			<img src="wp-content/themes/bones/images/slider7.jpg">
+		</li>
+-->
+<!--
+		<li>
+			<img src="wp-content/themes/bones/images/slidertext1.jpg">
+		</li>
+		<li>
+			<img src="wp-content/themes/bones/images/slidertext2.jpg">
+		</li>
+		<li>
+			<img src="wp-content/themes/bones/images/slidertext3.jpg">
+		</li>
+		<li>
+			<img src="wp-content/themes/bones/images/slidertext4.jpg">
+		</li>
+-->
+		<li>
+			<img src="wp-content/themes/bones/images/testSlider.jpg">
+		</li>
+		<li>
+			<img src="wp-content/themes/bones/images/testSlider2.jpg">
+		</li>
+		<li>
+			<img src="wp-content/themes/bones/images/testSlider7.jpg">
+		</li>
+		<li>
+			<img src="wp-content/themes/bones/images/testSlider6.jpg">
+		</li>
+
 	</ul>
 </div>
 	</div>

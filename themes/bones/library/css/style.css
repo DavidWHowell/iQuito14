@@ -1524,6 +1524,8 @@ LAYOUT & GRID STYLES
 *********************/
   .wrap {
     max-width: 1140px;
+    padding-right: 25px;
+    margin-bottom: 40px;
   }
   /*********************
 HEADER STYLES
@@ -1823,7 +1825,7 @@ though, go for it.
 	max-width: 1276px;
 	position: absolute;
 	/* right: 0px; */
-	top: 0px;
+	top: 75px;
 	z-index: -1000;
     height: 100%;
     margin: 0px;
@@ -1849,8 +1851,113 @@ body {
 	margin-top: 30px;
 }
 
+.ivonne {
+	margin-top: -40px;
+}
+
+.deysi {
+	margin-top: -35px;
+}
+
+.fernanda {
+	margin-top: -60px;
+}
+
 /* Gradient transparent - color - transparent */
-		
+
+.redGradient {
+	padding: 0;
+	margin-top: -10px;
+	height: 8px;
+	background-color: #8C001A;
+	margin-bottom: -15px;
+}
+
+.redGradient0 {
+	height: 6px;
+	background-color: #8C001A;
+}
+
+.redGradient2 {
+	margin: 0px;
+	padding: 0px;
+	height: 5px;
+	background-color: #8C001A;
+	margin-bottom: 5px;
+}
+
+.redGradient3 {
+	padding: 0;
+	margin-top: 30px;
+	height: 6px;
+	background-color: #8C001A;
+	margin-bottom: -15px;
+	width: 50%;
+}
+
+.redGradient4 {
+	padding: 0;
+	height: 6px;
+	background-color: #8C001A;
+	margin-bottom: -15px;
+	width: 50%;
+}
+
+.redGradient5 {
+	margin: 0px;
+	padding: 0px;
+	height: 5px;
+	background-color: #8C001A;
+	margin-bottom: 5px;
+	margin-top: -10px;
+}
+
+.redGradient6 {
+	margin: 0px;
+	padding: 0px;
+	height: 5px;
+	background-color: #8C001A;
+	margin-top: 25px;
+	margin-bottom: -15px;
+}
+
+.redGradient7 {
+	margin: 0px;
+	padding: 0px;
+	height: 5px;
+	background-color: #8C001A;
+	margin-top: -10px;
+	margin-bottom: 10px;
+}
+
+.facultyNames {
+	font-size: 2em;
+	text-align: center;
+	padding-top: 2px;
+}
+
+.facItalics {
+	font-family: 'baskerville', serif;
+	font-style: italic;
+	font-size: 1.5em;
+	text-align: center;
+	margin-top: -10px;
+	margin-bottom: 15px;
+}
+
+.studentItalics {
+	font-family: 'baskerville', serif;
+	font-style: italic;
+	font-size: 1.5em;
+	text-align: center;
+	margin-top: -40px;
+	margin-bottom: 15px;
+}
+
+#supportDetails {
+	text-align: center;
+}
+
 .hrGradient {
 	margin-top: -5px;
     border: 0;
@@ -1861,10 +1968,77 @@ body {
     background-image:      -o-linear-gradient(left, rgba(0,0,0,1), rgba(0,0,0,0.5), rgba(0,0,0,0)); 
 }
 
+#quote {
+	margin-top: -25px;
+}
+
+.fernandoQuote {
+	font-size: 1.5em;
+}
+
+#supportVidP {
+	margin-top: 90px;
+	font-size: 1.5em;
+}
+
+#donateHere {
+	text-align: center;
+	font-size: 4.0em;
+	font-family: 'bree_serifregular';
+	margin: 10px;
+}
+
+.donateButtons {
+	text-align: center;
+	margin-top: 20px;
+}
+
+#aclasImages {
+	margin-bottom: -10px;
+	margin-top: -10px;
+}
+
+
+.blog .article-header {
+	display: block;
+}
+
+.blog .respond-form {
+	display: block;
+}
+
+.single .article-header {
+	display: block;
+}
+
+.single .respond-form {
+	display: block;
+}
+
+.galleryVideo {
+	margin-top: 20px;
+}
 
 /*************************
 		HEADER
 *************************/
+
+
+#firstTitle {
+	font-size: .3em;
+}
+
+#secondTitle {
+	font-size: .7em;
+}
+
+#thirdTitle {
+	font-size: .37em;
+}
+
+#fourthTitle {
+	font-size: .58em;
+}
 
 #logoTitle li {
 	display: block;
@@ -1872,15 +2046,14 @@ body {
 }
 
 .escuelaNuevos {
-	color: white;
+	color: black;
 	font-family: 'bree_serifregular';
 	font-size: 3.5em;
+	-webkit-font-smoothing:	antialiased;
 }
 
 #escuela {
-	position: relative;
-	left: 20px;
-	bottom: 12px;	
+/* 	position: relative; */
 }
 
 .logoTop li {
@@ -1889,10 +2062,12 @@ body {
 
 
 #logo {
-	width: 90%;
-	margin: 0;
-	padding: 0;
-	margin-left: 20px;
+	width: 70%;
+}
+
+.logo {
+	position: absolute;
+	top: 10px;
 }
 
 .nav {
@@ -1900,31 +2075,60 @@ body {
 	margin-top: -50px;
 /* 	opacity: .8; */
 	padding-left: 60px;
-	margin-top: 370px;
+	margin-top: 285px;
+	font-size: 1.2em;
 }
 
-.nav li {
-
+.titleBanner { 
+	height: 85px;
+	position: relative;
+/* 	top: 0px; */
+	top: -157px;
+	margin-left: 122px;
+/* 	background-color: rgba(255, 255, 255, 0.25); */
+/* 	background-color: rgba(140, 0, 26, 0); */
+	background-color: white;
+/* 	background-color: -prefix-linear-gradient(left, rgba(140, 0, 26, 0.25), rgba(140, 0, 26, 0)); */
+	border-bottom: 10px solid #8C001A;
+	z-index: 5;
 }
 
-.titleBanner {
-	margin-top: 10px;
-/* 	background-color: rgba(140, 0, 26, 0.7); */   
-	width: 40%;
-	height: 50px;
+.circleLogo {
+	z-index: 2;
 }
 
 #donateFlag {
 	position: absolute;
-	top: 0;
-	padding-left: 1030px;
-	
+	top: -11px;
+	right: -600px;
 }
 
 #homeVideo {
 	text-align: center;
 	padding: 10px;
 }
+
+.rightButtons {
+	float: right;
+	margin-top: -80px;
+}
+
+#rightButtons li{
+	display: inline;
+	padding-left: 5px;
+}
+
+#headerButtons {
+	width: 40px;
+	height: 40px;
+	margin-bottom: 10px;
+}
+
+#supportGraphic {
+	margin-left: 45px;
+
+}
+
 
 /*********************
 	 HEADER END
@@ -1958,6 +2162,7 @@ body {
 	font-size: 2.0em;
 	font-family: 'bree_serifregular';
 	color: white;
+	-webkit-font-smoothing:	antialiased;
 }
 
 a:-webkit-any-link {
@@ -1967,6 +2172,7 @@ a:-webkit-any-link {
 .siteMapCategories {
 	font-weight: 900;
 	font-family: 'bree_serifregular';
+	-webkit-font-smoothing:	antialiased;
 }
 
 .contactFooter {
@@ -2032,42 +2238,136 @@ a:-webkit-any-link {
 @media only screen and (max-width: 1150px) {
 
 	.nav {
-		margin-top: 300px;
+		margin-top: 220px;
 	}
 	
 	#inner-content {
 		padding-left: 30px;
 	}
 
-	#donateFlag {
-		padding-left: 800px;
+
+}
+
+@media only screen and (max-width: 1045px) {
+	
+	.contactFooter {
+		top: -210px;
+	}
+	
+	.nav {
+		margin-top: 200px;
 	}
 }
+
+
+@media only screen and (max-width: 1035px) {
+	
+	.siteMapTitle {
+		font-size: 1.6em;
+	}
+	
+	.nav {
+		margin-top: 190px;
+	}
+
+	.contactFooter {
+		top: -155px;
+	}
+	
+}
+
 
 @media only screen and (max-width: 946px) {
 	
 	.nav {
-		margin-top: 250px;
+		margin-top: 155px;
 	}
 	
-	.escuelaNuevos {
+	/*
+.escuelaNuevos {
 		font-size: 2.5em;
 	}
+*/
 	
-	#donateFlag {
-		padding-left: 600px;
+	.siteMapTitle {
+		font-size: 1.5em;
+	}
+	
+	#firstTitle {
+		font-size: .3em;
+	}
+	
+	#secondTitle {
+		font-size: .6em;
+	}
+	
+	
+	#aboutUs {
+		height: 256px;
+		width: 384px;
+	}
+	
+	#ivonne {
+		height: 256px;
+		width: 384px;
+	}
+	
+	#anthony {
+		height: 256px;
+		width: 384px;
+	}
+	
+	#supportVid {
+		height: 256px;
+		width: 384px;
+	}
+	
+	.siteMap {
+		margin-left: 0;
+		font-size: 0.8em;
+	}
+	
+	.contactFooter {
+		top: -125px;
 	}
 }
 
-@media only screen and (max-width: 775px) {
+@media only screen and (max-width: 850px) {
+	
+	.nav {
+		margin-top: 120px;
+	}
+}
+
+@media only screen and (max-width: 796px) {
+	
+	#headerButtons {
+		width: 30px;
+		height: 30px;
+	}
+
+	#donateHeaderButton {
+		width: 50%;
+	}
+	
+	.rightButtons {
+		margin-top: -70px;
+	}
+	
 	
 	.nav {
 		padding-left: 0;
-		margin-top: 200px;
+		margin-top: 105px;
+		font-size: 1.0em;
 	}
 	
 	#logo {
-		display: none;
+		width: 60%;
+		margin-left: 5px;
+	}
+	
+	#escuela {
+		left: 20px;
 	}
 	
 	.siteFoot {
@@ -2075,25 +2375,68 @@ a:-webkit-any-link {
 	}
 	
 	.contactFooter {
-		padding-left: 300px;
-		margin-top: -80px;
+		left: 0px;
+		top: -100px;
 		
 	}
+	
 	
 	.flex-direction-nav .flex-prev {display: none;}
 	
 	.flex-direction-nav .flex-next {display: none;}
 	
+	#aboutUs {
+		height: 200px;
+		width: 300px;
+	}
 	
-	#donateFlag {
-		padding-left: 500px;
+	#ivonne {
+		height: 200px;
+		width: 300px;
+	}
+	
+	#anthony {
+		height: 200px;
+		width: 300px;
+	}
+	
+	#supportVid {
+		height: 200px;
+		width: 300px;
+	}
+	
+	
+}
+
+@media only screen and (max-width: 770px) {
+	.contactFooter {
+		left: 0px;
+		top: -100px;
+		}
+}
+
+@media only screen and (max-width: 760px) {
+	.contactFooter {
+		left: 500px;
+		top: -190px;
+		}
+	#headerButtons {
+		display: none;
+	}
+	
+	#donateHeaderButton {
+		width: 70%;
+	}
+	
+	.nav {
+		margin-top: 80px;
 	}
 }
 
 @media only screen and (max-width: 670px) { 
 	
 	.nav {
-		margin-top: 175px;
+		margin-top: 50px;
 	}
 	
 	#siteMapFooter {
@@ -2103,8 +2446,15 @@ a:-webkit-any-link {
 	.contactFooter {
 		margin: 0;
 		padding: 0;
-		top: 5px;
-		left: 50px;
+		top: 0;
+		left: 0;
+		padding-left: 200px;
+		font-size: 1.5em;
+		
+	}
+	
+	#donateHeaderButton {
+		display: none;
 	}
 	
 	.flex-direction-nav .flex-prev {display: none;}
@@ -2112,23 +2462,47 @@ a:-webkit-any-link {
 	.flex-direction-nav .flex-next {display: none;}
 	
 
-	#donateFlag {
-		padding-left: 375px;
-	}
+}
+
+@media only screen and (max-width: 575px) {
+	
+		.nav {
+			margin-top: 25px;
+		}
+		
+		#secondTitle {
+			font-size: .5em;
+		}
 }
 
 @media only screen and (max-width: 530px) {
-	#donateFlag {
-		padding-left: 300px;
+	h1 {
+		font-size: 1.5em;
 	}
 	
+	.nav {
+		margin-top: 0px;
+	}
 }
+
+@media only screen and (max-width: 490px) {
+	
+	#secondTitle {
+		font-size: .4em;
+	}
+}
+
 
 @media only screen and (max-width: 475px) {
 	
-	.nav {
-		margin-top: 100px;
+	body {
+		max-width: 475px;
 	}
+	
+	.wrap {
+		padding-right: 15px;
+	}
+	
 	
 	#homePageButtons {
 		display: none;
@@ -2138,43 +2512,112 @@ a:-webkit-any-link {
 		display: none;
 	}
 	
-	.escuelaNuevos {
+	/*
+.escuelaNuevos {
 		font-size: 1.75em;
 	}
+*/
+	
+	/*
+#escuela {
+		top: 10px;
+	}
+*/
+
+/*
+	.titleBanner {
+		background-color: rgba(255,255,255,0);
+	}
+*/
 	
 	.contactFooter {
 		margin: 0 auto;
 		padding: 0;
 		top: 5px;
 		left: 50px;
+		font-size: 1.3em;
 	}
 	
-	#donateFlag {
-		padding-left: 275px;
-	}
-	
-	#donateFlag img {
-		width: 100px;
-		height: 100px;
-	}
 	
 	.flex-direction-nav .flex-prev {display: none;}
 	
 	.flex-direction-nav .flex-next {display: none;}
+	
+	#aboutUs {
+		height: 167px;
+		width: 250px;
+	}
+	
+	#ivonne {
+		height: 167px;
+		width: 250px;
+	}
+	
+	#anthony {
+		height: 167px;
+		width: 250px;
+	}
+	
+	#supportVid {
+		height: 167px;
+		width: 250px;
+	}
+
+	h1 {
+		font-size: 1.3em;
+	}
+	
+	
+}
+
+@media only screen and (max-width: 415px) {
+	
+	.nav {
+		margin-top: -35px;
+	}
 }
 
 @media only screen and (max-width: 400px) {
-	.nav {
-		margin-top: 60px;
+	
+	body {
+		max-width: 400px;
 	}
 	
-	#donateFlag {
-		padding-left: 175px;
-		
+	.nav {
+		margin-top: -50px;
 	}
+	
 	
 	#donateFlag img {
 		width: 100px;
 		height: 100px;
+	}
+	
+	h1 {
+		font-size: 1.3em;
+	}
+	
+}
+
+
+@media only screen and (max-width: 335px) {
+	.titleBanner {
+		display: none;
+	}
+	
+	.logo {
+		display: none;
+	}
+	
+	.circleLogo {
+		display: none;
+	}
+	
+	#bigSlider {
+		top: 0px;
+	}
+	
+	.nav {
+		margin-top: 100px;
 	}
 }

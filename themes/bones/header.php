@@ -7,7 +7,7 @@
 
 	<head>
 		<meta charset="utf-8">
-		<title>Nuevos Horizontes del Sur</title>
+		<title>Escuela y Colegio Nuevos Horizontes del Sur</title>
 		<?php // Google Chrome Frame for IE ?>
 		<meta name="description" content="Escuela y Colegio Nuevos Horizontes del Sur. A website for the new horizons of the south school in Quito, Ecuador.">
 		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
@@ -21,9 +21,10 @@
 
 		<?php // icons & favicons (for more: http://www.jonathantneal.com/blog/understand-the-favicon/) ?>
 		<link rel="apple-touch-icon" href="<?php echo get_template_directory_uri(); ?>/library/images/apple-icon-touch.png">
-		<link rel="icon" href="<?php echo get_template_directory_uri(); ?>/favicon.png">
+		<link rel="icon" type="image/png" href="wp-content/themes/bones/images/favicon.png" />
+		<!-- <link rel="icon" href="<?php echo get_template_directory_uri(); ?>/images/favicon.png"> -->
 		<!--[if IE]>
-			<link rel="shortcut icon" href="<?php echo get_template_directory_uri(); ?>/favicon.ico">
+			<link rel="icon" href="<?php echo get_template_directory_uri(); ?>/images/favicon.ico">
 		<![endif]-->
 		<?php // or, set /favicon.ico for IE10 win ?>
 		<meta name="msapplication-TileColor" content="#f01d4f">
@@ -38,12 +39,12 @@
 		<?php // drop Google Analytics Here ?>
 		<?php // end analytics ?>
 		
+		
 		<link rel="stylesheet" type="text/css" href="wp-content/themes/bones/shadowbox/shadowbox.css">
 		<script type="text/javascript" src="wp-content/themes/bones/shadowbox/shadowbox.js"></script>
 		<script type="text/javascript">
 		Shadowbox.init();
 		</script>
-		
 		
 		<link rel="stylesheet" href="wp-content/themes/bones/flexslider/flexslider.css" type="text/css">
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
@@ -62,21 +63,26 @@
 	</head>
 
 	<body <?php body_class(); ?>>
+	<?php include_once("analyticstracking.php") ?>
 
 		<div id="container">
 
 			<header class="header" role="banner">
 			
+			<div class="circleLogo">
+				<img src="wp-content/themes/bones/images/circle3.png">
+			</div>
 			
+			<div class="logo">
+			<a href="<?php echo home_url(); ?>"><img id="logo" src="wp-content/themes/bones/images/logo2.png"></a>
+			</div>
 			
 			<div class="titleBanner">
 					<ul class="logoTop">
-						<li><a href="<?php echo home_url(); ?>"><img id="logo" src="wp-content/themes/bones/images/logo2.png"></li></a>
 						<li id="escuela"><h1 class="escuelaNuevos">
 						<ul id="logoTitle">
-						<li>NUEVOS</li>
-						<li>HORIZONTES</li>
-						<li>DEL SUR</li>
+						<li id="firstTitle">ESCUELA Y COLEGIO</li>
+						<li id="secondTitle">NUEVOS HORIZONTES DEL SUR</li>
 						</ul>
 						</h1>
 						</li>
@@ -84,7 +90,19 @@
 													
 					</ul>
 					
+			<div class="rightButtons">
+				<ul id="rightButtons">
+					<li><a href="https://www.facebook.com/EscuelaNuevosHotizontesDelSur" target="_blank"><img id="headerButtons" src="wp-content/themes/bones/images/fbHeader.png"></a></li>
+					<li><a href="http://vimeo.com/channels/668159" target="_blank"><img id="headerButtons" src="wp-content/themes/bones/images/vimeoHeader.png"></a></li>
+					<li><a href="index.php?p=14" target="_blank"><img src="wp-content/themes/bones/images/donateHeader.png" id="donateHeaderButton"></a></li>
+				</ul>
+			</div>
 					
+					<!--
+<div id="donateFlag">
+						<a href="#"><img src="wp-content/themes/bones/images/donateBanner4.png"></a>
+				</div>	
+-->
 					
 					
 					
@@ -92,9 +110,7 @@
 					
 					</div>
 					
-				<div id="donateFlag">
-				<a href="#"><img src="wp-content/themes/bones/images/donateBanner4.png"></a>
-				</div>	
+		
 					
 			
 				<div id="inner-header" class="wrap clearfix">

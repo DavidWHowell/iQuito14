@@ -32,7 +32,8 @@ Template Name: Gallery
 							?>
                  </div><?php */?>
                 
-                <!-- <div id="gallery" class="ad-gallery">
+                <!--
+<div id="gallery" class="ad-gallery">
                       <div class="ad-image-wrapper"> </div>
                       <div class="ad-nav">
                         <div class="ad-thumbs">
@@ -58,7 +59,8 @@ Template Name: Gallery
                      </div>
                    <div class="ad-controls"></div>
                 </div> 	
-                -->
+               
+-->
        
 
            <?php endwhile; else: ?>

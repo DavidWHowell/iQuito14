@@ -4,7 +4,7 @@
 				
 				<div class="siteMap">
 				<div class="eightcol first" id="siteMapFooter">
-					<a href="<?php echo home_url(); ?>"><h1 class="siteMapTitle">NUEVOS HORIZONTES DEL SUR</h1></a>
+					<a href="<?php echo home_url(); ?>"><h1 class="siteMapTitle">ESCUELA Y COLEGIO NUEVOS HORIZONTES DEL SUR</h1></a>
 					
 					
 					<ul id="about" class="twocol first">
@@ -16,7 +16,7 @@
 					<ul id="people" class="twocol">
 					<li class="siteMapCategories">PEOPLE</li>
 					<li class="indent"><a href="?page_id=26">Faculty</a></li>
-					<li class="indent"><a href="?page_id=11">Students and Alumni</a></li>
+					<li class="indent"><a href="?page_id=15">Students and Alumni</a></li>
 					<li class="indent"><a href="?page_id=24">ACLAS</a></li>
 					</ul>
 					
@@ -27,28 +27,28 @@
 					</ul>
 
 					<ul id="support" class="twocol">
-					<a href="?page_id=9"><li class="siteMapCategories">SUPPORT</li></a>
+					<a href="?page_id=14"><li class="siteMapCategories">SUPPORT</li></a>
 					</ul>
 					
 					<ul id="contactUs" class="twocol">
 					<a href="?page_id=50"><li class="siteMapCategories">CONTACT US</li></a>
 					</ul>
+					
+					
 				</div>	
 				</div>
 				<div class="contactFooter">
 				<div class="fourcol last">
 					<h1 class="siteMapTitle">CONTACT</h1>
 					<ul>
-					<li>Fernando Miño Garcés, Ph. D</li>
+					<li>Fernando Miño-Garcés, Ph.D.</li>
 					<li>Academic Director</li>
 					<li>El Día N37-111 y El Comercio</li>
 					<li>Quito, Ecuador</li>
 					<li>593-2-2240-179/593-2-2455-942</li>
-					<li><a href="http://www.aclas.org">www.aclas.org</a></li>
 					<li>
-					<a href="#"><img class="socialMediaIcons" src="wp-content/themes/bones/images/facebook.png"></a>
-					<a href="#"><img class="socialMediaIcons" src="wp-content/themes/bones/images/twitter.png"></a>
-					<a href="#"><img class="socialMediaIcons" src="wp-content/themes/bones/images/youtube.png"></a>
+					<a href="https://www.facebook.com/EscuelaNuevosHotizontesDelSur" target="_blank"><img class="socialMediaIcons" src="wp-content/themes/bones/images/facebook.png"></a>
+					<a href="http://vimeo.com/channels/668159" target="_blank"><img class="socialMediaIcons" src="wp-content/themes/bones/images/vimeo.png"></a>
 					</li>
 					</ul>
 				</div>

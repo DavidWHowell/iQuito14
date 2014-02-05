@@ -1,5 +1,30 @@
 <?php get_header(); ?>
 
+		<div id="bigSlider">
+			<div class="flexslider">
+	<ul class="slides">
+		
+		<li>
+			<img src="wp-content/themes/bones/images/slider2.jpg">
+			
+		</li>
+		<li>
+			<img src="wp-content/themes/bones/images/slider3.jpg">
+		</li>
+		<li>
+			<img src="wp-content/themes/bones/images/slider4.jpg">
+		</li>
+		<li>
+			<img src="wp-content/themes/bones/images/slider6.jpg">
+		</li>
+		<li>
+			<img src="wp-content/themes/bones/images/slider7.jpg">
+		</li>
+	</ul>
+</div>
+	</div>
+
+
 			<div id="content">
 
 				<div id="inner-content" class="wrap clearfix">
